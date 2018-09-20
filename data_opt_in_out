@@ -1,0 +1,55 @@
+#!/bin/python
+import os
+from datetime import *
+import calendar
+import hdfs
+import subprocess
+from shutil import move
+import argparse
+
+path='<>'
+backup_path='<>'
+
+def process(fn):
+  """
+  It will take input function process and upload
+  data opt in and out of pre and post data
+  It will check whether latest folder is equal to Friday then
+  put in the ANZ HDFS.
+  Support folder date is 20180810 equal to Friday.
+  """
+  def inner(*args,**kwargs):
+    newest,latest_date,type=fn(*args,**kwargs)
+    if calendar.day_name[latest_date.weekday()] == "Friday":
+      (out, errors) = hdfs.run_cmd(['hdfs', 'dfs', '-put', '{}'.format(newest), '<>/data_opt_in_out/prepaid/'])
+      (out, errors) = hdfs.run_cmd(['hdfs', 'dfs', '-ls', '<>/data_opt_in_out/prepaid/{}'.format(newest)])
+      print(out)
+      (out, errors) = hdfs.run_cmd(['hdfs', 'dfs', '-touchz', '<>/data_opt_in_out/{}/{}/copy-done'.format(type,newest)])
+      move(newest,os.path.join(backup_path,type))
+    else:
+      print("No lastest folder found")
+  return inner
+
+@process
+def get_latest_folder(type):
+  """
+  It will return latest folder, date and type of data(PrePaid or PostPaid)
+  which needs to be process
+  whether prepaid or postpaid after listing folder in the given path.
+  """
+  os.chdir(os.path.join(path, type))
+  files = sorted(os.listdir(os.getcwd()), key=os.path.getmtime)
+  newest = files[-1]
+  print("latest folder : ", newest)
+  latest_date = datetime.strptime(newest, '%Y%m%d')
+  return newest,latest_date,type
+
+
+if __name__ == "__main__":
+  parser= argparse.ArgumentParser("Data Opt in out")
+  parser.add_argument("--type",
+                      choices=['prepaid','postpaid'],
+                      help="To process data",
+                      required=True)
+  args=parser.parse_args()
+  get_latest_folder(args.type)
