@@ -47,7 +47,7 @@ class BICleanup():
 
     def delete_dataset(self, dataset):
         """
-         It will delete the dataset from hdfs /idea/archive and
+         It will delete the dataset from hdfs path and
          localfilesystem as well.
          :param dataset:
          :return:
@@ -63,7 +63,7 @@ class BICleanup():
 
     def cleanup(self):
         """
-        Checks whether the dataset is present in /idea/archive/<date>/dataset
+        Checks whether the dataset is present in path/<date>/dataset
         like voice, sms, etc. Call the delete_dataset function
         :return:
          """
