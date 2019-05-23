@@ -1,6 +1,7 @@
 import sys
 import boto3
 import json
+import re
 
 client = boto3.client('ec2')
 ec2 = boto3.resource('ec2')
@@ -22,12 +23,17 @@ for r in response['Reservations']:
 			#print("VPC Id : {}".format(i['VpcId']))
 			vpc_tag_describe = describe_tags(i['VpcId'])
 			for tags in vpc_tag_describe['Tags']:
-				print("VPC Tags: ", tags['Key'])
-			subnet_tag_describe = describe_tags(i['SubnetId'])
-			print("Subnet tags: ", subnet_tag_describe)
-			for sg in i['SecurityGroups']:
-				print("Security Group id : {}".format(sg['GroupId']))
-			for blockdevice in i['BlockDeviceMappings']:
-				print("EBS Volume id: {}".format(blockdevice['Ebs']['VolumeId']))
-			for interfaces in i['NetworkInterfaces']:
-				print("ENI : {}".format(interfaces['Attachment']['AttachmentId']))
+				if 'BillingID' not in tags['Key']:
+					print("Add the tags")
+				elif re.match(r'BillingID', tags['Key'], re.M):
+					print(tags['Key'])
+					break
+
+			# subnet_tag_describe = describe_tags(i['SubnetId'])
+			# print("Subnet tags: ", subnet_tag_describe)
+			# for sg in i['SecurityGroups']:
+			# 	print("Security Group id : {}".format(sg['GroupId']))
+			# for blockdevice in i['BlockDeviceMappings']:
+			# 	print("EBS Volume id: {}".format(blockdevice['Ebs']['VolumeId']))
+			# for interfaces in i['NetworkInterfaces']:
+			# 	print("ENI : {}".format(interfaces['Attachment']['AttachmentId']))
