@@ -6,34 +6,48 @@ import re
 client = boto3.client('ec2')
 ec2 = boto3.resource('ec2')
 response = client.describe_instances()
-
+# print(response)
+# sys.exit()
 def describe_tags(resource_id):
-	output = client.describe_tags(
+	search_tags = client.describe_tags(
 				Filters=[{
 					'Name': 'resource-id',
 					'Values': [
 						"{}".format(resource_id),
 					], }, ],
 			)
-	return output
+
+	for tags in search_tags['Tags']:
+		if 'BillingID' not in tags['Key']:
+			create_tag(resource_id)
+
+	return search_tags
+
+
+def create_tag(resource_id):
+	client.create_tags(
+		Resources=[
+			'{}'.format(resource_id)
+		],
+		Tags=[
+			{
+				'Key': 'BillingID',
+				'Value': 'FDB',
+			},
+		],
+	)
 
 for r in response['Reservations']:
 	for i in r['Instances']:
 		if i['State']['Name'] != 'terminated':
-			#print("VPC Id : {}".format(i['VpcId']))
-			vpc_tag_describe = describe_tags(i['VpcId'])
-			for tags in vpc_tag_describe['Tags']:
-				if 'BillingID' not in tags['Key']:
-					print("Add the tags")
-				elif re.match(r'BillingID', tags['Key'], re.M):
-					print(tags['Key'])
-					break
-
-			# subnet_tag_describe = describe_tags(i['SubnetId'])
-			# print("Subnet tags: ", subnet_tag_describe)
-			# for sg in i['SecurityGroups']:
-			# 	print("Security Group id : {}".format(sg['GroupId']))
-			# for blockdevice in i['BlockDeviceMappings']:
+			describe_tags(i['InstanceId'])
+			describe_tags(i['VpcId'])
+			describe_tags(i['SubnetId'])
+			describe_sg_tags(i['SecurityGroups'])
+			for sg in i['SecurityGroups']:
+				describe_tags(sg['GroupId'])
+				#print("Security Group id : {}".format(sg['GroupId']))
+			# #for blockdevice in i['BlockDeviceMappings']:
 			# 	print("EBS Volume id: {}".format(blockdevice['Ebs']['VolumeId']))
 			# for interfaces in i['NetworkInterfaces']:
 			# 	print("ENI : {}".format(interfaces['Attachment']['AttachmentId']))
