@@ -16,7 +16,6 @@ def describe_tags(resource_id):
 					], }, ],
 			)
 	if search_tags:
-		print("Tag is not associated")
 		create_tag(resource_id)
 
 	for tags in search_tags['Tags']:
@@ -45,13 +44,10 @@ for r in response['Reservations']:
 			describe_tags(i['InstanceId'])
 			describe_tags(i['VpcId'])
 			describe_tags(i['SubnetId'])
-			describe_sg_tags(i['SecurityGroups'])
 			for sg in i['SecurityGroups']:
 				describe_tags(sg['GroupId'])
-
 			for blockdevice in i['BlockDeviceMappings']:
 				describe_tags(blockdevice['Ebs']['VolumeId'])
-
 			for interfaces in i['NetworkInterfaces']:
 				describe_tags(interfaces['NetworkInterfaceId'])
 
