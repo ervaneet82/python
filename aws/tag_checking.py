@@ -6,8 +6,7 @@ import re
 client = boto3.client('ec2')
 ec2 = boto3.resource('ec2')
 response = client.describe_instances()
-# print(response)
-# sys.exit()
+
 def describe_tags(resource_id):
 	search_tags = client.describe_tags(
 				Filters=[{
@@ -16,6 +15,9 @@ def describe_tags(resource_id):
 						"{}".format(resource_id),
 					], }, ],
 			)
+	if search_tags:
+		print("Tag is not associated")
+		create_tag(resource_id)
 
 	for tags in search_tags['Tags']:
 		if 'BillingID' not in tags['Key']:
@@ -46,8 +48,10 @@ for r in response['Reservations']:
 			describe_sg_tags(i['SecurityGroups'])
 			for sg in i['SecurityGroups']:
 				describe_tags(sg['GroupId'])
-				#print("Security Group id : {}".format(sg['GroupId']))
-			# #for blockdevice in i['BlockDeviceMappings']:
-			# 	print("EBS Volume id: {}".format(blockdevice['Ebs']['VolumeId']))
-			# for interfaces in i['NetworkInterfaces']:
-			# 	print("ENI : {}".format(interfaces['Attachment']['AttachmentId']))
+
+			for blockdevice in i['BlockDeviceMappings']:
+				describe_tags(blockdevice['Ebs']['VolumeId'])
+
+			for interfaces in i['NetworkInterfaces']:
+				describe_tags(interfaces['NetworkInterfaceId'])
+
