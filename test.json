@@ -1,0 +1,12 @@
+{
+  "id": "f88b396a-7e0d-6438-14c0-73fda07d7ee0",
+  "detail-type": "Scheduled Event",
+  "source": "aws.events",
+  "account": "610014150274",
+  "time": "2019-01-28T02:23:03Z",
+  "region": "us-east-1",
+  "resources":
+  [
+    "arn:aws:events:us-east-1:610014150274:rule/bodhiCDTDm"
+  ]
+}

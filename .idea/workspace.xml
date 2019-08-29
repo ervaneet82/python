@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="960d1498-856b-41b3-bfe3-a4469f6e5eb4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ELB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/aws_ses_sending_mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/epochtime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/read_cloudwatch_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws_information.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws_instance_ami.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws_start_stop_services.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/MaxList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/add_operator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/callable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/circle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/mydict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/students_details.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/temperature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/closures/closurewithdifferentscopes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/closures/closurewithsamescope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/closures/squareusingclosure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cron.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/factorialwithdecorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/logging-decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec2create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec2manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecs_cluster_replace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elb_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/closure01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/decorator01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/non_local_scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/non_local_scope02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/practice01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/size.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/capitalized_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/defaultdict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/swapcase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamda_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_ecs_task_definition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operator_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/alt_char_capitalize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/aws_s3_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/balance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/calc_letter_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/cloudfront.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/cloudfront_lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/count_duplicate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/count_line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/elb_health_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/fabonacci_reduce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/first_no_repeating_character.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/head_tail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/high_low_number_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/lambda_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/logs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/min_value_in_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/password_validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/phone_format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/practise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/read_n_line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/regex/email_validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/regex/regular_expression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/regex/sub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/regex/validephonenumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/remove_duplicates_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/remove_vowels_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/reverse_word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/route53.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/smallest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/string/cumulative_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/string/make_title.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/string/stringformat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/string_maskify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/tail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/test_smallest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/times.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/update_route53_weighted_policy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdsmanage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reduce_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regions.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slack_notification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="python" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DomainName</find>
+      <find>Comment</find>
+      <find>trusted</find>
+      <find>TrustedSigners</find>
+      <find>Aliases</find>
+      <find>CallerReference</find>
+      <find>IP</find>
+      <find>riyanshi2018.s3.amazonaws.com</find>
+      <find>eni</find>
+      <find>vaneet</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/practice/tail.py" />
+        <option value="$PROJECT_DIR$/practice/practice.py" />
+        <option value="$PROJECT_DIR$/practice/lambda_json.py" />
+        <option value="$PROJECT_DIR$/practice/cloudfront_lambda.py" />
+        <option value="$PROJECT_DIR$/practice/regular_expression.py" />
+        <option value="$PROJECT_DIR$/practice/regex/sub.py" />
+        <option value="$PROJECT_DIR$/practice/regex/validephonenumbers.py" />
+        <option value="$PROJECT_DIR$/practice/regex/email_validation.py" />
+        <option value="$PROJECT_DIR$/practice/string/stringformat.py" />
+        <option value="$PROJECT_DIR$/practice/cloudfront.py" />
+        <option value="$PROJECT_DIR$/hackerrank/defaultdict.py" />
+        <option value="$PROJECT_DIR$/practice/smallest_number.py" />
+        <option value="$PROJECT_DIR$/practice/test_smallest.py" />
+        <option value="$PROJECT_DIR$/practice/smallest.py" />
+        <option value="$PROJECT_DIR$/practice/missing_nums.py" />
+        <option value="$PROJECT_DIR$/practice/remove_duplicates_list.py" />
+        <option value="$PROJECT_DIR$/practice/remove_vowels_string.py" />
+        <option value="$PROJECT_DIR$/practice/count_duplicate.py" />
+        <option value="$PROJECT_DIR$/practice/string/character_convertion.py" />
+        <option value="$PROJECT_DIR$/practice/min_value_in_list.py" />
+        <option value="$PROJECT_DIR$/practice/string/cumulative_sum.py" />
+        <option value="$PROJECT_DIR$/practice/first_no_repeating_character.py" />
+        <option value="$PROJECT_DIR$/ELB.py" />
+        <option value="$PROJECT_DIR$/practice/phone_format.py" />
+        <option value="$PROJECT_DIR$/practice/route53.json" />
+        <option value="$PROJECT_DIR$/elb_status.py" />
+        <option value="$PROJECT_DIR$/practice/head_tail.py" />
+        <option value="$PROJECT_DIR$/practice/result.json" />
+        <option value="$PROJECT_DIR$/practice/string_maskify.py" />
+        <option value="$PROJECT_DIR$/practice/elb_health_check.py" />
+        <option value="$PROJECT_DIR$/practice/times.py" />
+        <option value="$PROJECT_DIR$/practice/practise.py" />
+        <option value="$PROJECT_DIR$/practice/high_low_number_string.py" />
+        <option value="$PROJECT_DIR$/practice/reverse_word.py" />
+        <option value="$PROJECT_DIR$/practice/alt_char_capitalize.py" />
+        <option value="$PROJECT_DIR$/practice/string/make_title.py" />
+        <option value="$PROJECT_DIR$/practice/update_route53_weighted_policy.py" />
+        <option value="$PROJECT_DIR$/practice/test_json.json" />
+        <option value="$PROJECT_DIR$/practice/test.json" />
+        <option value="$PROJECT_DIR$/read_json.py" />
+        <option value="$PROJECT_DIR$/list_ecs_task_definition.py" />
+        <option value="$PROJECT_DIR$/ecs_cluster_replace.py" />
+        <option value="$PROJECT_DIR$/aws/s3_file_process.py" />
+        <option value="$PROJECT_DIR$/generator/size.py" />
+        <option value="$PROJECT_DIR$/aws/tag_checking.py" />
+        <option value="$PROJECT_DIR$/cron.py" />
+        <option value="$PROJECT_DIR$/slack_notification.py" />
+        <option value="$PROJECT_DIR$/aws/cloudlogs.py" />
+        <option value="$PROJECT_DIR$/aws/epochtime.py" />
+        <option value="$PROJECT_DIR$/aws/aws_ses_sending_mail.py" />
+        <option value="$PROJECT_DIR$/aws/read_cloudwatch_log.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="815" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="aws" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/vaneet/my_code/python/practice/practice.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practice/regex" />
+      <recent name="$PROJECT_DIR$/practice" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.read_cloudwatch_log">
+    <configuration name="aws_ses_sending_mail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aws" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aws/aws_ses_sending_mail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="count_vowels" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/count_vowels.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="epochtime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aws" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aws/epochtime.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rdsmanage" type="PythonConfigurationType" factoryName="Python">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rdsmanage.py" />
+      <option name="PARAMETERS" value="status" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_cloudwatch_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aws" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aws/read_cloudwatch_log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="slack_notification" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slack_notification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.aws_ses_sending_mail" />
+      <item itemvalue="Python.count_vowels" />
+      <item itemvalue="Python.epochtime" />
+      <item itemvalue="Python.rdsmanage" />
+      <item itemvalue="Python.read_cloudwatch_log" />
+      <item itemvalue="Python.slack_notification" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.read_cloudwatch_log" />
+        <item itemvalue="Python.aws_ses_sending_mail" />
+        <item itemvalue="Python.epochtime" />
+        <item itemvalue="Python.count_vowels" />
+        <item itemvalue="Python.slack_notification" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="960d1498-856b-41b3-bfe3-a4469f6e5eb4" name="Default" comment="" />
+      <created>1531914119027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531914119027</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="815" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48565573" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" weight="0.24947146" />
+      <window_info id="Favorites" order="2" sideWeight="0.5143443" side_tool="true" weight="0.24947146" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49722221" weight="0.549101" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39834026" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50277776" side_tool="true" weight="0.32692307" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32780084" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/decorator/counter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/string/stringformat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/string/cumulative_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/times.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/test_smallest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="19" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/lambda_json.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/head_tail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/elb_health_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/remove_vowels_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/min_value_in_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/first_no_repeating_character.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/reverse_word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/high_low_number_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/calc_letter_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="61" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/alt_char_capitalize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/string/make_title.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_example.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operator_usage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lamda_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/test_json.json" />
+    <entry file="file://$PROJECT_DIR$/practice/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/update_route53_weighted_policy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="3" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/result.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/route53.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rdsmanage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_ecs_task_definition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/add_operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecs_cluster_replace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/size.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/s3_file_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws_start_stop_services.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws_instance_ami.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ec2create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-967">
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws_information.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="e#90#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ELB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ec2manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ec2create_converge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elb_status.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionary_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slack_notification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/count_vowels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/count_words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/cloudlogs.py" />
+    <entry file="file://$PROJECT_DIR$/aws/tag_checking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/aws_ses_sending_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/read_cloudwatch_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="27" selection-start-line="21" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/epochtime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+          <folding>
+            <element signature="e#19#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

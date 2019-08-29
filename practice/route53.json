@@ -1,0 +1,19 @@
+{
+  "Comment": "Modifying existing MX record for the zone.",
+  "Changes": [
+    {
+    "Action": "UPSERT",
+    "ResourceRecordSet": {
+      "Name": "xmlgw-crs-partner-it.aws-code-dqa.cb4good.com.",
+      "Type": "A",
+      "SetIdentifier": "xmlgw",
+      "Weight": 98,
+      "AliasTarget": {
+          "HostedZoneId": "Z2EHBWZL1IOKJR",
+          "DNSName": "xmlgw-crspartner-it.aws-code-dqa.cb4good.com.",
+          "EvaluateTargetHealth": false
+        }
+      }
+    }
+  ]
+}
